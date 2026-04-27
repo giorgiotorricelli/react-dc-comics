@@ -84,3 +84,33 @@ section {
     height: 23%;
 }
 
+footer {
+    background-image: url(/public/img/footer-bg.jpg);
+    padding: 35px 0;
+    color: white;
+    justify-content: space-between;
+    a {
+        text-decoration: none;
+        color: grey;
+    }
+
+    h3 {
+        margin-bottom: 10px;
+    }
+}
+
+.footer-nav-wrapper {
+    gap: 20px;
+}
+
+.footer-nav-wrapper ul {
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+
+#logo-footer {
+    width: 100%;
+    translate: -30% -20%;
+}
+
