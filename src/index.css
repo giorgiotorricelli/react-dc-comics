@@ -1,0 +1,39 @@
+/* css reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', 'sans-serif';
+}
+
+/* Utils */
+
+.container {
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+.dis-flex {
+    display: flex;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.height-header {
+    height: 10vh;
+}
+
+header a {
+    font-size: 0.8em;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+    margin-right: 10px;
+}
