@@ -27,7 +27,7 @@
 }
 
 .height-header {
-    height: 10vh;
+    height: 13vh;
 }
 
 header a {
@@ -37,3 +37,16 @@ header a {
     font-weight: 500;
     margin-right: 10px;
 }
+
+main {
+    min-height: 100px;
+    background-color: rgb(33, 33, 33);
+}
+
+.content-wrapper {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
