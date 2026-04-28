@@ -6,7 +6,10 @@ function Header(){
             <div className="logo-wrapper" style={{height : '85%'}}>
                 <img src="/img/dc-logo.png" alt="dc logo" style={{height : '100%'}}/>
             </div>
-            <Nav_header/>
+            <ul className="dis-flex">
+                <Nav_header/>
+            </ul>
+            
         </div>
         
     </header>;
