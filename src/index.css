@@ -44,12 +44,9 @@ header a {
 }
 
 header li:hover {
-    
-    
-        border-bottom: 5px solid rgb(0, 72, 255);
-    
-   
+    border-bottom: 5px solid rgb(0, 128, 255);
 }
+
 
 header li {
     list-style: none;
@@ -57,6 +54,32 @@ header li {
     display: flex;
     align-items: center;
 }
+
+.jumbo-wrapper {
+    min-height: 50vh;
+    background-image: url('../public/img/jumbotron.jpg');
+    background-position: center top;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.current-series-btn {
+    background-color: rgb(0, 128, 255);
+    font-size: 1.3rem;
+    font-weight: 700;
+    border-style: none;
+    padding: 5px 10px;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    left: 15%;
+    translate: 0 50%;
+}
+
+
+
+
 
 
 main {
@@ -86,7 +109,7 @@ section {
 }
 
 .img-wrapper {
-        height: 35%;
+    height: 35%;
 }
 
 .img-wrapper img {
@@ -109,6 +132,7 @@ footer {
     background-image: url(/public/img/footer-bg.jpg);
     padding: 35px 0;
     color: white;
+
     a {
         text-decoration: none;
         color: grey;
@@ -139,4 +163,3 @@ footer {
     width: 80%;
     translate: -30% -20%;
 }
-

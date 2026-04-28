@@ -1,9 +1,11 @@
-
+import Jumbo_wrapper from "./Jumbo_wrapper";
+import Comics_wrapper from "./Comics_wrapper";
 
 function Main(){
     return <main>
+        <Jumbo_wrapper/>
         <div className="container content-wrapper">
-            <h3>--&gt;Content goes here&lt;--</h3>
+            <Comics_wrapper/>
         </div>
     </main>;
 }
