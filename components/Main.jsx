@@ -4,8 +4,15 @@ import Comics_wrapper from "./Comics_wrapper";
 function Main(){
     return <main>
         <Jumbo_wrapper/>
-        <div className="container content-wrapper">
-            <Comics_wrapper/>
+        <div className="container">
+            <div className="comics-wrapper">
+                <Comics_wrapper/>
+            </div>
+            <div className="load-wrapper">
+                <a href="#"><button className="load-btn">LOAD MORE</button></a>
+                
+            </div>
+            
         </div>
     </main>;
 }

@@ -77,6 +77,47 @@ header li {
     translate: 0 50%;
 }
 
+.comics-wrapper {
+    padding-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2%;
+}
+
+.single-comic {
+    width: 155px;
+}
+
+.comic-thumb-wrapper {
+    height: 80%;
+    aspect-ratio: 1;
+}
+
+.comic-thumb {
+    height: 100%;
+    width: 100%;
+}
+
+.comic-category {
+    font-size: 0.7rem;
+    color: white;
+    margin-top: 5%;
+}
+
+
+.load-wrapper {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.load-btn {
+    padding: 5px 10px;
+    background-color: rgb(0, 128, 255);
+    color: white;
+    font-weight: 700;
+    border-style: none;
+}
 
 
 
@@ -87,12 +128,7 @@ main {
     background-color: rgb(33, 33, 33);
 }
 
-.content-wrapper {
-    height: 100px;
-    display: flex;
-    align-items: center;
-    color: white;
-}
+
 
 section {
     height: 10em;

@@ -1,9 +1,20 @@
 import comics from "../src/data/comics";
 
-function Comics_wrapper(){
-    return <div className="comics-wrapper">
-        
-    </div>
+function Comics_wrapper() {
+    
+    
+    const comicsMapped = comics.map(el => {
+        return <div className="single-comic" key={el.id}>
+            <div className="comic-thumb-wrapper">
+                <img src={el.thumb} alt="" className="comic-thumb" />
+            </div>
+            <p className="comic-category">{el.series}</p>
+        </div>;
+    });
+    
+    return comicsMapped;
+    
+    
 }
 
 export default Comics_wrapper
