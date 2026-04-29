@@ -1,9 +1,9 @@
-import comics from "../src/data/comics";
 
-function Comics_wrapper() {
+
+function Comics_wrapper(props) {
+    const { arrayComics } = props;
     
-    
-    const comicsMapped = comics.map(el => {
+    const comicsMapped = arrayComics.map(el => {
         return <div className="single-comic" key={el.id}>
             <div className="comic-thumb-wrapper">
                 <img src={el.thumb} alt="" className="comic-thumb" />

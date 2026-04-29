@@ -84,8 +84,14 @@ header li {
     gap: 2%;
 }
 
+.single-comic:hover {
+    translate: 0 -5px;
+    transition: all 0.3s;
+}
+
 .single-comic {
-    width: 155px;
+    width: 15%;
+    transition: all 0.3s;
 }
 
 .comic-thumb-wrapper {
@@ -95,7 +101,7 @@ header li {
 
 .comic-thumb {
     height: 100%;
-    width: 100%;
+    aspect-ratio: 1;
 }
 
 .comic-category {
